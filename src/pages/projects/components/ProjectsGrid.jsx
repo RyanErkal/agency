@@ -1,6 +1,5 @@
-import ExperienceCard from "./ExperienceCard";
-import AllProjects from "./AllProjects";
 import { motion } from "framer-motion";
+import ExperienceCard from "../../../components/ExperienceCard";
 
 const spring = {
     type: "spring",
@@ -8,7 +7,7 @@ const spring = {
     stiffness: 100
 };
 
-export default function Experience() {
+export default function ProjectsGrid() {
     return (
         <div id="mywork" className="flex flex-col items-center justify-center bg-slate-800 text-slate-100 p-32 min-h-screen">
             <h1 className="playfair text-4xl font-bold mb-6">Our Work</h1>
@@ -18,38 +17,38 @@ export default function Experience() {
                     whileInView={{ y: "0%", opacity: 1 }}
                     viewport={{ once: true }}
                     transition={spring}>
-                    <ExperienceCard title="Business 2" description="Digital solutions that elevate your brand by driving revenue ang lead generation." />
+                    <a href="/project/1">
+                        <ExperienceCard title="Business 2" description="Digital solutions that elevate your brand by driving revenue ang lead generation." />
+                    </a>
                 </motion.div>
                 <motion.div
                     initial={{ y: "90%", opacity: 0 }}
                     whileInView={{ y: "0%", opacity: 1 }}
                     viewport={{ once: true }}
                     transition={spring}>
-                    <ExperienceCard title="Business 2" description="Digital solutions that elevate your brand by driving revenue ang lead generation." right />
+                    <a href="/project/1">
+                        <ExperienceCard title="Business 2" description="Digital solutions that elevate your brand by driving revenue ang lead generation." right />
+                    </a>
                 </motion.div>
                 <motion.div
                     initial={{ y: "60%", opacity: 0 }}
                     whileInView={{ y: "0%", opacity: 1 }}
                     viewport={{ once: true }}
                     transition={spring}>
-                    <ExperienceCard title="Business 2" description="Digital solutions that elevate your brand by driving revenue ang lead generation." />
+                    <a href="/project/1">
+                        <ExperienceCard title="Business 2" description="Digital solutions that elevate your brand by driving revenue ang lead generation." />
+                    </a>
                 </motion.div>
                 <motion.div
                     initial={{ y: "90%", opacity: 0 }}
                     whileInView={{ y: "0%", opacity: 1 }}
                     viewport={{ once: true }}
                     transition={spring}>
-                    <ExperienceCard title="Business 2" description="Digital solutions that elevate your brand by driving revenue ang lead generation." right />
+                    <a href="/project/1">
+                        <ExperienceCard title="Business 2" description="Digital solutions that elevate your brand by driving revenue ang lead generation." right />
+                    </a>
                 </motion.div>
             </div>
-            <motion.div
-                initial={{ y: "60%", opacity: 0 }}
-                whileInView={{ y: "0%", opacity: 1 }}
-                viewport={{ once: true }}
-                transition={spring}
-                className="w-full">
-                <AllProjects />
-            </motion.div>
         </div>
     );
 }

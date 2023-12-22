@@ -3,6 +3,11 @@ import WebDev from "./pages/web-dev/WebDev";
 import LeadGen from "./pages/lead-gen/LeadGen";
 import BusinessAi from "./pages/business-ai/BusinessAi";
 import ContactPage from "./pages/contact/ContactPage";
+import Projects from "./pages/projects/Projects";
+import Project from "./pages/project/Project";
+import ProjectBranding from "./pages/project/components/ProjectBranding";
+import ProjectWebDev from "./pages/project/components/ProjectWebDev";
+import ProjectLeadGen from "./pages/project/components/ProjectLeadGen";
 import './App.css';
 import {
   createBrowserRouter,
@@ -29,6 +34,12 @@ function Root() {
       <Route path="/lead-gen" element={<LeadGen />} />
       <Route path="/business-ai" element={<BusinessAi />} />
       <Route path="/contact" element={<ContactPage />} />
+      <Route path="/projects" element={<Projects />} />
+      <Route path="/project/:id" element={<Project />} >
+        <Route path="" element={<ProjectBranding />} />
+        <Route path="web-dev" element={<ProjectWebDev />} />
+        <Route path="lead-gen" element={<ProjectLeadGen />} />
+      </Route>
     </Routes>
   );
 }
