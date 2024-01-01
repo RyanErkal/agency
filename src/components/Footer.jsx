@@ -4,7 +4,7 @@ export default function Footer() {
             <div className="bg-slate-800 px-8 py-32 xl:px-32 pb-8 text-xs flex items-center justify-center">
                 <div className="flex flex-col items-center w-full max-w-7xl px-8 xl:px-16 py-8 bg-purple-200 text-slate-900 rounded-xl">
                     <div className="flex flex-col xl:flex-row gap-6 justify-between items-start">
-                        <h1 className="text-4xl playfair"><strong className="playfair-extrabold">Obi</strong>Solutions</h1>
+                        <h1 className="text-4xl playfair"><strong className="playfair-extrabold">RE</strong>Solutions</h1>
                         <p className="xl:w-1/4">Where innovation meets impact, and ambition transforms into achievement.</p>
                         <div className="flex flex-col gap-2">
                             <a href="#" className="border-b border-purple-200 hover:border-slate-900 transition-all w-min">Services</a>
