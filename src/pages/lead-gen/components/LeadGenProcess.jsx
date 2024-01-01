@@ -10,15 +10,15 @@ const spring = {
 
 export default function LeadGenProcess() {
     return (
-        <div id="services" className="flex flex-col items-center justify-center bg-slate-800 text-slate-100 p-32 min-h-screen">
+        <div id="services" className="flex flex-col items-center justify-center bg-slate-800 text-slate-100 px-8 py-32 xl:px-32 min-h-screen">
             <h1 className="playfair text-4xl font-bold mb-6">Our 6 step process</h1>
-            <h2 className="mb-6">Onboard, Plan, Create, Launch, Optimize, Report</h2>
-            <div className="grid grid-cols-2 gap-x-16 gap-y-32 max-w-7xl">
+            <h2 className="mb-6 text-center">Onboard, Plan, Create, Launch, Optimize, Report</h2>
+            <div className="grid grid-cols-1 xl:grid-cols-2 gap-8 xl:gap-x-16 xl:gap-y-32 max-w-7xl">
                 <motion.div initial={{ y: "100%", opacity: 0 }}
                     whileInView={{ y: "0%", opacity: 1 }}
                     viewport={{ once: true }}
                     transition={spring}
-                    className="row-span-2 row-start-1">
+                    className="xl:row-span-2 xl:row-start-1">
                     <Card title={"Onboard"} description={"In the Discover phase, we delve into understanding your unique goals, audience, and market landscape. Through in-depth research and consultation, we identify key insights that lay the foundation for a successful web project. This phase is about uncovering the core essence of your vision and translating it into a strategic plan."} >
                         <Onboard size={100} />
                     </Card>

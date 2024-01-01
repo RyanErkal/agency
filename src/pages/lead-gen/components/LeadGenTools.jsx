@@ -7,25 +7,25 @@ export default function LeadGenTools() {
             <h1 className="playfair text-4xl font-bold mb-6">Tools we use</h1>
             <div className="grid grid-cols-2 xl:grid-cols-7 gap-6 max-w-7xl">
                 <Tool>
-                    <GoogleAds size={100} />
+                    <GoogleAds size={40} />
                 </Tool>
                 <Tool>
-                    <GoogleAdSense size={100} />
+                    <GoogleAdSense size={40} />
                 </Tool>
                 <Tool>
-                    <GoogleAnalytics size={100} />
+                    <GoogleAnalytics size={40} />
                 </Tool>
                 <Tool>
-                    <GoogleCloud size={100} />
+                    <GoogleCloud size={40} />
                 </Tool>
                 <Tool>
-                    <MailChip size={100} />
+                    <MailChip size={40} />
                 </Tool>
                 <Tool>
-                    <ChatGPT size={100} />
+                    <ChatGPT size={40} />
                 </Tool>
                 <Tool>
-                    <ClickFunnels size={100} />
+                    <ClickFunnels size={40} />
                 </Tool>
             </div>
         </div>

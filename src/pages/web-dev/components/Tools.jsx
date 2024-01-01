@@ -3,9 +3,9 @@ import Tool from "../../../components/Tool";
 
 export default function Tools() {
     return (
-        <div id="services" className="flex flex-col items-center justify-center bg-slate-800 text-slate-100 p-32 h-fit">
+        <div id="services" className="flex flex-col items-center justify-center bg-slate-800 text-slate-100 px-8 py-32 xl:px-32 h-fit">
             <h1 className="playfair text-4xl font-bold mb-6">Tools we use</h1>
-            <div className="grid grid-cols-2 xl:grid-cols-6 gap-6 max-w-7xl">
+            <div className="grid grid-cols-3 xl:grid-cols-6 gap-6 max-w-7xl">
                 <Tool>
                     {/* HTML */}
                     <svg viewBox="0 0 128 128">

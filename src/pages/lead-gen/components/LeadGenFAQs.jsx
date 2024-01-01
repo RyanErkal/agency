@@ -2,7 +2,7 @@ import FAQ from '../../../components/FAQ';
 
 export default function LeadGenFAQs() {
     return (
-        <div className="bg-slate-800 text-slate-100 px-32 w-full flex flex-col justify-center items-center h-screen">
+        <div className="bg-slate-800 text-slate-100 px-8 py-32 xl:px-32 w-full flex flex-col justify-center items-center h-screen">
             <h1 className="playfair text-4xl font-bold w-full text-center">Looking for answers?</h1>
             <div className="max-w-7xl w-full">
                 <FAQ question="What is lead generation?" answer="Lead generation is the process of attracting and converting strangers and prospects into someone who has indicated interest in your company's product or service. Some examples of lead generators are job applications, blog posts, coupons, live events, and online content." />

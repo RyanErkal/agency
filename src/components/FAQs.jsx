@@ -2,7 +2,7 @@ import FAQ from './FAQ';
 
 export default function FAQs() {
     return (
-        <div className="bg-slate-800 text-slate-100 px-32 w-full flex flex-col justify-center items-center h-screen">
+        <div className="bg-slate-800 text-slate-100 px-8 py-32 xl:px-32 w-full flex flex-col justify-center items-center h-screen">
             <h1 className="playfair text-4xl font-bold w-full text-center">Looking for answers?</h1>
             <div className="max-w-7xl w-full">
                 <FAQ question={"What is the difference between a website and a web application?"} answer={"A website is a collection of web pages that are linked together. A web application is a website that has interactive features, such as a shopping cart or a contact form."} />

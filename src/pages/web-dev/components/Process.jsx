@@ -9,15 +9,15 @@ const spring = {
 
 export default function Services() {
     return (
-        <div id="services" className="flex flex-col items-center justify-center bg-slate-800 text-slate-100 p-32 min-h-screen">
+        <div id="services" className="flex flex-col items-center justify-center bg-slate-800 text-slate-100 px-8 py-32 xl:px-32 min-h-screen">
             <h1 className="playfair text-4xl font-bold mb-6">Our 6 step process</h1>
-            <h2 className="mb-6">Discover, plan, design, build, deliver, scale</h2>
-            <div className="grid grid-cols-2 gap-x-16 gap-y-32 max-w-7xl">
+            <h2 className="mb-6 text-center">Discover, plan, design, build, deliver, scale</h2>
+            <div className="grid grid-cols-1 xl:grid-cols-2 gap-8 xl:gap-x-16 xl:gap-y-32 max-w-7xl">
                 <motion.div initial={{ y: "100%", opacity: 0 }}
                     whileInView={{ y: "0%", opacity: 1 }}
                     viewport={{ once: true }}
                     transition={spring}
-                    className="row-span-2 row-start-1">
+                    className="xl:row-span-2 xl:row-start-1">
                     <Card title={"Discover"} description={"In the Discover phase, we delve into understanding your unique goals, audience, and market landscape. Through in-depth research and consultation, we identify key insights that lay the foundation for a successful web project. This phase is about uncovering the core essence of your vision and translating it into a strategic plan."} ><svg xmlns="http://www.w3.org/2000/svg" height="100" viewBox="0 -960 960 960" width="100"><path d="M784-120 532-372q-30 24-69 38t-83 14q-109 0-184.5-75.5T120-580q0-109 75.5-184.5T380-840q109 0 184.5 75.5T640-580q0 44-14 83t-38 69l252 252-56 56ZM380-400q75 0 127.5-52.5T560-580q0-75-52.5-127.5T380-760q-75 0-127.5 52.5T200-580q0 75 52.5 127.5T380-400Z" /></svg>
                     </Card>
                 </motion.div>

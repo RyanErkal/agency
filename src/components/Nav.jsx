@@ -7,8 +7,8 @@ export default function Nav() {
 
     return (
         <div className="absolute w-full flex justify-center items-center bg-slate-800">
-            <div className="w-full max-w-7xl text-slate-100 flex justify-between items-center p-8 px-16">
-                <h1 className="text-4xl playfair"><strong className="playfair-extrabold">Obi</strong>Solutions</h1>
+            <div className="w-full max-w-7xl text-slate-100 flex justify-between items-center p-8 px-8 xl:px-16">
+                <h1 className="text-4xl playfair"><strong className="playfair-extrabold">RE</strong>solutions</h1>
 
                 {currentPathname !== "/" ? (
                     <div className="gap-2 hidden xl:flex items-center">

@@ -10,7 +10,7 @@ const spring = {
 
 export default function Services() {
     return (
-        <div id="services" className="flex flex-col items-center justify-center bg-slate-800 text-slate-100 p-32 min-h-screen">
+        <div id="services" className="flex flex-col items-center justify-center bg-slate-800 text-slate-100 px-8 py-32 xl:px-32 min-h-screen">
             <h1 className="playfair text-4xl font-bold mb-6">Our 3 pillars of success</h1>
             <div className="grid grid-cols-1 xl:grid-cols-3 gap-4 max-w-7xl">
                 <motion.div

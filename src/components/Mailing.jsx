@@ -8,7 +8,7 @@ const spring = {
 
 export default function Mailing() {
     return (
-        <div className="flex flex-col items-center justify-center bg-slate-800 text-slate-100 p-32">
+        <div className="flex flex-col items-center justify-center bg-slate-800 text-slate-100 px-8 py-32 xl:px-32">
             <div className="max-w-7xl w-full">
                 <h1 className="playfair text-4xl font-bold mb-6 w-full text-left">Join our mailing list</h1>
                 <motion.div

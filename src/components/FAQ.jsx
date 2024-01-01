@@ -8,11 +8,11 @@ export default function FAQ(props) {
 
     return (
         <button
-            className="flex flex-col text-left text-lg w-full bg-slate-800 text-slate-100 border-2 border-purple-200 px-16 py-8 mt-8 rounded-xl"
+            className="flex flex-col text-left text-lg w-full bg-slate-800 text-slate-100 border-2 border-purple-200 px-8 xl:px-16 py-8 mt-8 rounded-xl"
             onClick={() => setIsOpen((prev) => !prev)}
         >
             <div className="flex justify-between items-center w-full">
-                <div className="text-2xl font-bold">{props.question}</div>
+                <div className="text-lg xl:text-2xl font-bold">{props.question}</div>
                 <AnimatePresence initial={false} mode="wait">
                     <motion.div
                         key={isOpen ? "minus" : "plus"}
