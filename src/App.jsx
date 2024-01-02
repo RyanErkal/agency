@@ -9,6 +9,8 @@ import ProjectBranding from "./pages/project/components/ProjectBranding";
 import ProjectWebDev from "./pages/project/components/ProjectWebDev";
 import ProjectLeadGen from "./pages/project/components/ProjectLeadGen";
 import Blog from "./pages/blog/Blog";
+import BlogGrid from "./pages/blog/components/BlogGrid";
+import BlogPost from "./pages/blogpost/BlogPost";
 import './App.css';
 import {
   createBrowserRouter,
@@ -41,7 +43,10 @@ function Root() {
         <Route path="web-dev" element={<ProjectWebDev />} />
         <Route path="lead-gen" element={<ProjectLeadGen />} />
       </Route>
-      <Route path="/blog" element={<Blog />} />
+      <Route path="/blog" element={<Blog />} >
+        <Route path="" element={<BlogGrid />} />
+        <Route path="post" end element={<BlogPost />} />
+      </Route>
     </Routes>
   );
 }

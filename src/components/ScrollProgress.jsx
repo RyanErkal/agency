@@ -9,8 +9,6 @@ export default function App() {
         restDelta: 0.001
     });
 
-    console.log(scrollYProgress);
-
     return (
         <motion.div className="progress-bar" style={{ scaleX }} />
     );
