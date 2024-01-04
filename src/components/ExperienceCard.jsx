@@ -1,6 +1,6 @@
-import transpstripemac from "../../public/transpstripemac.png";
+/* import transpstripemac from "../../public/transpstripemac.png"; */
 import layout1 from "../../public/layout1.png";
-import layout2 from "../../public/layout2.png";
+/* import layout2 from "../../public/layout2.png"; */
 import layout3 from "../../public/layout3.png";
 
 export default function ExperienceCard({ title, services, right }) {
