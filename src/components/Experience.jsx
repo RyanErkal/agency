@@ -18,28 +18,28 @@ export default function Experience() {
                     whileInView={{ y: "0%", opacity: 1 }}
                     viewport={{ once: true }}
                     transition={spring}>
-                    <ExperienceCard title="Placeholder" name="Name" description="Project description placeholder" />
+                    <ExperienceCard title="Placeholder" services={["Web Development"]} />
                 </motion.div>
                 <motion.div
                     initial={{ y: "90%", opacity: 0 }}
                     whileInView={{ y: "0%", opacity: 1 }}
                     viewport={{ once: true }}
                     transition={spring}>
-                    <ExperienceCard title="Placeholder" name="Name" description="Project description placeholder" />
+                    <ExperienceCard title="Placeholder" services={["Web Development", "Lead Generation"]} right />
                 </motion.div>
                 <motion.div
                     initial={{ y: "60%", opacity: 0 }}
                     whileInView={{ y: "0%", opacity: 1 }}
                     viewport={{ once: true }}
                     transition={spring}>
-                    <ExperienceCard title="Placeholder" name="Name" description="Project description placeholder" />
+                    <ExperienceCard title="Placeholder" services={["Web Development", "Business AI"]} />
                 </motion.div>
                 <motion.div
                     initial={{ y: "90%", opacity: 0 }}
                     whileInView={{ y: "0%", opacity: 1 }}
                     viewport={{ once: true }}
                     transition={spring}>
-                    <ExperienceCard title="Placeholder" name="Name" description="Project description placeholder" />
+                    <ExperienceCard title="Placeholder" services={["Web Development"]} right />
                 </motion.div>
             </div>
             <motion.div
