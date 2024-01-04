@@ -32,18 +32,18 @@ export default function App() {
 function Root() {
   return (
     <Routes>
-      <Route path="/" element={<Home />} />
-      <Route path="/web-dev" element={<WebDev />} />
-      <Route path="/lead-gen" element={<LeadGen />} />
-      <Route path="/business-ai" element={<BusinessAi />} />
-      <Route path="/contact" element={<ContactPage />} />
-      <Route path="/projects" element={<Projects />} />
-      <Route path="/project/:id" element={<Project />} >
+      <Route path="" element={<Home />} />
+      <Route path="web-dev" element={<WebDev />} />
+      <Route path="lead-gen" element={<LeadGen />} />
+      <Route path="business-ai" element={<BusinessAi />} />
+      <Route path="contact" element={<ContactPage />} />
+      <Route path="projects" element={<Projects />} />
+      <Route path="project/:id" element={<Project />} >
         <Route path="" element={<ProjectBranding />} />
         <Route path="web-dev" element={<ProjectWebDev />} />
         <Route path="lead-gen" element={<ProjectLeadGen />} />
       </Route>
-      <Route path="/blog" element={<Blog />} >
+      <Route path="blog" element={<Blog />} >
         <Route path="" element={<BlogGrid />} />
         <Route path="post" end element={<BlogPost />} />
       </Route>
