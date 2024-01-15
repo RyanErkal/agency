@@ -17,8 +17,8 @@ export default function Nav() {
                         <Link to="/#services" className="border-b-2 border-slate-800 hover:border-purple-200 px-4 py-1 transition ease-in-out duration-300">Services</Link>
                         <Link to="/#mywork" className="border-b-2 border-slate-800 hover:border-purple-200 px-4 py-1 transition ease-in-out duration-300">My Work</Link>
                         <Link to="/#testimonials" className="border-b-2 border-slate-800 hover:border-purple-200 px-4 py-1 transition ease-in-out duration-300">Testimonials</Link>
-                        <Link to="/#blog" className="border-b-2 border-slate-800 hover:border-purple-200 px-4 py-1 transition ease-in-out duration-300">Blog</Link>
-                        <Link to="/#contact" className="border-b-2 border-slate-800 hover:border-purple-200 px-4 py-1 transition ease-in-out duration-300">Contact</Link>
+                        <Link to="/blog" className="border-b-2 border-slate-800 hover:border-purple-200 px-4 py-1 transition ease-in-out duration-300">Blog</Link>
+                        <Link to="/contact" className="border-b-2 border-slate-800 hover:border-purple-200 px-4 py-1 transition ease-in-out duration-300">Contact</Link>
                     </div>
                 ) : (
                     <div className="gap-2 hidden xl:flex items-center">

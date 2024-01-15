@@ -1,7 +1,7 @@
 /* import transpstripemac from "../../public/transpstripemac.png"; */
 import layout1 from "../../public/layout1.png";
-/* import layout2 from "../../public/layout2.png"; */
-import layout3 from "../../public/layout3.png";
+import layout2 from "../../public/layout2.png";
+/* import layout3 from "../../public/layout3.png"; */
 
 export default function ExperienceCard({ title, services, right }) {
     return (
@@ -14,7 +14,7 @@ export default function ExperienceCard({ title, services, right }) {
                     }
                     )}
                 </div>
-                <img src={layout1} className="object-contain" />
+                <img src={layout2} className="object-contain" />
             </a>
             ) : (
                 <a href="/project/1" className="bg-slate-800 text-slate-900 border-2 border-purple-200 flex flex-row items-start justify-between rounded-lg h-full">
@@ -25,7 +25,7 @@ export default function ExperienceCard({ title, services, right }) {
                         }
                         )}
                     </div>
-                    <img src={layout3} className="object-contain" />
+                    <img src={layout1} className="object-contain" />
                 </a>
             )
     );
